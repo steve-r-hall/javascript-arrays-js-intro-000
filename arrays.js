@@ -22,11 +22,12 @@ function destructivelyAddElementToEndOfArray(bars, element) {
 }
 
 function accessElementInArray(bars,occurrence) {
-  return bars(occurrence)
+  var reqentry = bars(occurrence);
+  return reqentry
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(bars) {
-  bars.shift;
+  bars.shift();
   return bars
 }
 
