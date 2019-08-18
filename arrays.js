@@ -22,7 +22,7 @@ function destructivelyAddElementToEndOfArray(bars, element) {
 }
 
 function accessElementInArray(bars, occurrence) {
-  var reqentry = bars(occurrence);
+  var reqentry = bars[occurrence];
   return reqentry
 }
 
